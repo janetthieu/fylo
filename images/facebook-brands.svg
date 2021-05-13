@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fab"
+   data-icon="facebook"
+   class="svg-inline--fa fa-facebook fa-w-16"
+   role="img"
+   viewBox="0 0 35 35"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="facebook-brands.svg"
+   width="35"
+   height="35"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="1.6774848"
+     inkscape:cx="240"
+     inkscape:cy="95.42866"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
+  <path
+     fill="currentColor"
+     d="M 35,17.606491 C 35,7.880324 27.167339,0 17.5,0 7.832662,0 0,7.880324 0,17.606491 0,26.394117 6.399496,33.678093 14.765625,35 V 22.696045 H 10.32006 v -5.089554 h 4.445565 v -3.879108 c 0,-4.412271 2.610888,-6.849493 6.609777,-6.849493 1.915124,0 3.917744,0.343611 3.917744,0.343611 v 4.330629 h -2.20726 c -2.173386,0 -2.851511,1.357403 -2.851511,2.749594 v 3.304767 h 4.853429 l -0.776213,5.089554 H 20.234375 V 35 C 28.600502,33.678093 35,26.394117 35,17.606491 Z"
+     id="path2"
+     style="stroke-width:0.0707789;fill:#999999" />
+</svg>

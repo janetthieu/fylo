@@ -1,0 +1,387 @@
+body {
+    margin: 0;
+    background: #181F2A url(images/bg-curvy-desktop.svg) no-repeat center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    color: #FFFFFF;
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+    top: 0;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    margin: 16px;
+}
+
+h1 {
+    padding: 24px 0 0;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+
+h2, h4 {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: url('images/mouse-cursor.png');
+}
+
+blockquote {
+    margin: 10px auto;
+    padding: 20px;
+    line-height: 1.7;
+    text-align: start;
+    font-size: .7rem;
+}
+
+button {
+    margin: 16px;
+    border: none;
+    border-radius: 35px;
+    padding: 18px;
+    width: 280px;
+    background-image: linear-gradient(to right, #65E2D9 0%, #339ECC 100%);
+    transition: 0.5s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+li {
+    list-style-type: none;
+}
+
+input {
+    margin: 10px;
+    border: none;
+    border-radius: 35px;
+    padding: 16px 24px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.subtitle {
+    margin: auto;
+    padding: 8px 20px 12px;
+    width: 85%;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+#nav-main {
+    display: flex;
+    width: 100%;
+    text-align: start;
+    align-items: center;
+}
+
+.nav-logo-push-left{
+    margin-right: auto;
+    padding-right: 80px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.nav-items {
+    margin-left: 52px;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
+}
+
+.nav-items a:active {
+    font-weight: 700;
+}
+
+#intro-container {
+    margin: auto;
+    width: 90%;
+    max-width: 760px;
+}
+
+.intro, .productive-img {
+    display: block;
+    margin: auto;
+    width: 92%;
+}
+
+#benefits-container {
+    display: grid;
+    margin: auto;
+    max-width: 1100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 120px 0;
+}
+
+.benefits-img-container {
+    height: 80px;
+}
+
+.benefits-card {
+    margin: 10px auto;
+    padding: 24px 0;
+}
+
+
+#productive-container {
+    padding: 16px;
+    align-items: center;
+    text-align: start;
+}
+
+.productive-content {
+    max-width: 560px;
+}
+
+.demo-link {
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px #65E2D9 solid;
+    padding-bottom: 4px;
+    text-decoration: none;
+    font-size: .8rem;
+    color: #65E2D9;
+}
+
+.demo-link:hover {
+    filter: saturate(0%);
+    border-bottom: 1px #FFFFFF solid;
+    color: #FFFFFF;
+}
+
+.arrow {
+    margin-left: 4px;
+    width: 16px;
+}
+
+#testimonials-container {
+    background: url(images/bg-quotes.png) no-repeat;
+    background-size: 25px auto;
+    background-position: 2% 0%;
+    margin: 170px 20px 330px;
+    padding: 5px 0;
+}
+
+.testimonial {
+    border-radius: 5px;
+    background-color: #202A3C;
+    margin: 0 0 20px;
+}
+
+.profile {
+    float: left;
+    margin: 5px 10px 0 0;
+    border-radius: 50%;
+    width: 30px;
+}
+
+.author {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.position {
+    font-style: normal;
+}
+
+#stacking-container {
+    position: relative;
+}
+
+#sign-up-container {
+    position: absolute;
+    left: 50%;
+    margin: -10% -15%;
+    border-radius: 10px;
+    padding: 30px 20px 20px;
+    background-color: #202A3C;
+    z-index: 1;
+}
+
+#main-footer {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 15% 5% 5%;
+    background-color: #0B1523;
+}
+
+.location-container {
+    display: flex;
+    margin: 14px 0 0;
+    padding: 0 10px;
+}
+
+.location-text {
+    line-height: 1.75;
+}
+
+.footer-header {
+    grid-row: 1 / 2;
+}
+
+.footer-logo {
+    float: left;
+    margin: 30px 0 30px 10px;
+}
+
+.footer-info {
+    grid-row: 2 / 3;
+    line-height: 2.5;
+    text-align: start;
+}
+
+.footer-info ul {
+    padding: 0 10px;
+}
+
+.contact-info {
+    grid-row: 3 / 4;
+    margin-bottom: 50px;
+}
+
+.contacts {
+    margin-right: 20px;
+    width: 15px;
+}
+
+.info-links-a {
+    grid-row: 4 / 5;
+}
+
+.info-links-b {
+    grid-row: 5 / 6;
+}
+
+#main-footer a:hover {
+    font-weight: 700;
+}
+
+.social-media {
+    margin: 5px;
+    width: 20px;
+}
+
+.social-media:hover {
+    filter: brightness(0.7) sepia(1) saturate(1000%) hue-rotate(150deg);
+}
+
+@media only screen and (min-width: 600px) {
+    main {
+        margin: 0 75px;
+    }
+
+    button:hover {
+        background: #65E2D9;
+        cursor: pointer;
+    }
+
+    #benefits-container {
+        margin: 0 75px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1240px;
+    }
+
+    h1, h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    blockquote {
+        padding: 20px 30px;
+        font-size: .8rem;
+    }
+
+    #nav-main {
+        margin: 24px auto;
+        max-width: 1200px;
+    }
+
+    #benefits-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .benefits-card {
+        max-width: 375px;
+    }
+    
+    #productive-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .productive-content {
+        margin: 0 20px;
+        max-width: 400px;
+    }
+    
+    #testimonials-container {
+        display: flex;
+        background-size: 50px auto;
+        padding: 25px 10px;
+    }
+
+    .testimonial {
+        margin: 0 20px;
+    }
+
+    .author, .position {
+        font-size: .6rem;
+    }
+
+    #footer-info-container {
+        display: flex;
+    }
+
+    .location-container {
+        flex: 3;
+        padding-right: 50px;
+    }
+
+    .contact-info {
+        flex: 2;
+    }
+
+    .info-links-a {
+        flex: 1;
+    }
+
+    .info-links-b {
+        flex: 1;
+    }
+
+    .social-media-container {
+        flex: 1;
+    }    
+}
