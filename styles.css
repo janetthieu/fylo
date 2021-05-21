@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: #181F2A url(images/bg-curvy-desktop.svg) no-repeat center;
+    background: #181F2A;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: .875rem;
@@ -8,13 +8,9 @@ body {
 }
 
 header, h1, h2, h3, h4, h5, h6 {
-    top: 0;
     width: 100%;
+    top: 0;
     font-family: 'Raleway', sans-serif;
-}
-
-main {
-    margin: 16px;
 }
 
 h1 {
@@ -24,7 +20,12 @@ h1 {
 }
 
 h2, h4 {
+    margin: 36px 0 0;
     font-size: 1rem;
+}
+
+p {
+    line-height: 1.5;
 }
 
 a {
@@ -35,23 +36,21 @@ a {
 
 blockquote {
     margin: 10px auto;
-    padding: 20px;
-    line-height: 1.7;
+    padding: 12px 24px 20px;
     text-align: start;
-    font-size: .7rem;
 }
 
 button {
-    margin: 16px;
+    width: 90%;
+    max-width: 260px;
+    margin: 14px;
     border: none;
     border-radius: 35px;
-    padding: 18px;
-    width: 280px;
+    padding: 14px;
     background-image: linear-gradient(to right, #65E2D9 0%, #339ECC 100%);
     transition: 0.5s;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 1rem;
     color: #FFFFFF;
 }
 
@@ -59,47 +58,31 @@ li {
     list-style-type: none;
 }
 
-input {
-    margin: 10px;
-    border: none;
-    border-radius: 35px;
-    padding: 16px 24px;
-    width: 250px;
-    font-family: 'Raleway', sans-serif;
-}
-
 * {
     box-sizing: border-box;
-}
-
-.subtitle {
-    margin: auto;
-    padding: 8px 20px 12px;
-    width: 85%;
-    line-height: 1.5;
-    font-size: 1.25rem;
 }
 
 #nav-main {
     display: flex;
     width: 100%;
+    margin: 0;
+    padding: 20px 0 40px;
     text-align: start;
     align-items: center;
 }
 
-.nav-logo-push-left{
+.push-left {
     margin-right: auto;
-    padding-right: 80px;
 }
 
 .logo {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
 .nav-items {
-    margin-left: 52px;
-    font-size: 1rem;
+    padding-left: 24px;
+    font-size: .7rem;
     white-space: nowrap;
 }
 
@@ -112,40 +95,48 @@ input {
 }
 
 #intro-container {
+    background:
+        url(images/bg-curvy-mobile.svg) center no-repeat,
+        linear-gradient(#1C2431 50%, #181F2A 60%);
     margin: auto;
-    width: 90%;
-    max-width: 760px;
+    padding: 0 32px 48px;
 }
 
-.intro, .productive-img {
+.intro {
     display: block;
     margin: auto;
-    width: 92%;
+    width: 100%;
 }
 
 #benefits-container {
     display: grid;
-    margin: auto;
     max-width: 1100px;
+    margin: auto;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    padding: 120px 0;
-}
-
-.benefits-img-container {
-    height: 80px;
-}
-
-.benefits-card {
-    margin: 10px auto;
     padding: 24px 0;
 }
 
+.benefits-img {
+    width: 60px;
+}
+
+.benefits-card {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 24px;
+}
 
 #productive-container {
-    padding: 16px;
+    padding: 60px 16px;
     align-items: center;
     text-align: start;
+}
+
+.productive-img {
+    display: block;
+    width: 92%;
+    margin: auto;
 }
 
 .productive-content {
@@ -169,37 +160,44 @@ input {
 }
 
 .arrow {
-    margin-left: 4px;
     width: 16px;
+    margin-left: 4px;
 }
 
 #testimonials-container {
     background: url(images/bg-quotes.png) no-repeat;
     background-size: 25px auto;
-    background-position: 2% 0%;
-    margin: 170px 20px 330px;
+    background-position: 10px 0;
+    margin: 80px 20px 300px;
     padding: 5px 0;
 }
 
-.testimonial {
-    border-radius: 5px;
+.testimonials-card {
     background-color: #202A3C;
-    margin: 0 0 20px;
+    margin: 0 20px 20px;
+    border-radius: 5px;
+}
+
+.testimonials {
+    line-height: 2;
+    font-size: .6rem;
 }
 
 .profile {
     float: left;
-    margin: 5px 10px 0 0;
-    border-radius: 50%;
     width: 30px;
+    margin: 0 10px 5px 0;
+    border-radius: 50%;
 }
 
 .author {
+    font-size: .6rem;
     font-style: normal;
     font-weight: 700;
 }
 
 .position {
+    font-size: .5rem;
     font-style: normal;
 }
 
@@ -209,18 +207,31 @@ input {
 
 #sign-up-container {
     position: absolute;
-    left: 50%;
-    margin: -10% -15%;
+    margin: -170px 16px;
     border-radius: 10px;
-    padding: 30px 20px 20px;
+    padding: 28px 20px 20px;
     background-color: #202A3C;
+    box-shadow: 4px 4px 5px 1px #0B1523;
     z-index: 1;
+}
+
+.sign-up-text {
+    font-size: .8rem;
+}
+
+#email {
+    width: 260px;
+    margin: 14px;
+    border: none;
+    border-radius: 35px;
+    padding: 16px 24px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #main-footer {
     display: grid;
     grid-template-rows: auto;
-    padding: 15% 5% 5%;
+    padding: 200px 5% 5%;
     background-color: #0B1523;
 }
 
@@ -243,6 +254,10 @@ input {
     margin: 30px 0 30px 10px;
 }
 
+#footer-info-container {
+    clear: left;
+}
+
 .footer-info {
     grid-row: 2 / 3;
     line-height: 2.5;
@@ -250,12 +265,16 @@ input {
 }
 
 .footer-info ul {
-    padding: 0 10px;
+    padding: 10px;
 }
 
 .contact-info {
     grid-row: 3 / 4;
-    margin-bottom: 50px;
+    padding: 0 0 20px;
+}
+
+.contact-info ul {
+    margin: 0;
 }
 
 .contacts {
@@ -275,9 +294,12 @@ input {
     font-weight: 700;
 }
 
+.social-media-container {
+    padding-top: 50px;
+}
 .social-media {
-    margin: 5px;
     width: 20px;
+    margin: 3px;
 }
 
 .social-media:hover {
@@ -289,29 +311,78 @@ input {
         margin: 0 75px;
     }
 
+    blockquote {
+        font-size: .8rem;
+    }
+
+    button {
+        margin-left: 10px;
+        max-width: 200px;
+        font-size: .8rem;
+    }
+
     button:hover {
         background: #65E2D9;
         cursor: pointer;
     }
 
+    .intro {
+        max-width: 500px;
+    }
+
     #benefits-container {
         margin: 0 75px;
+    }
+
+    .benefits-card {
+        padding: 24px 48px;
+    }
+
+    #productive-container {
+        padding: 60px 50px;
+        justify-content: center;
+    }
+
+    #testimonials-container {
+        max-width: 450px;
+        margin: 80px auto 150px;
+        padding: 5px 0;
+    }
+
+    #stacking-container {
+        width: 600px;
+        height: 100px;
+        margin: auto;
+    }
+
+    #sign-up-container {
+        margin: -10px 24px;
+    }
+
+    #email {
+        margin-right: 10px; 
+        padding: 14px 24px;
+        width: 250px;
+    }
+
+    #main-footer {
+        padding-top: 150px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     main {
-        margin: 0 auto;
-        width: 90%;
-        max-width: 1240px;
+        max-width:  1200px;
+        margin: auto;
     }
 
     h1, h2 {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     h3 {
-        font-size: 2rem;
+        margin: 16px 0;
+        font-size: 1.5rem;
     }
 
     h4 {
@@ -324,12 +395,30 @@ input {
     }
 
     #nav-main {
-        margin: 24px auto;
-        max-width: 1200px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 50px 24px;
+    }
+
+    .nav-items {
+        padding-left: 44px;
+    }
+
+    #intro-container {
+        background:
+            url(images/bg-curvy-desktop.svg) bottom no-repeat,
+            linear-gradient(#1C2431 70%, #181F2A 100%);
+    }
+
+    .intro-text {
+        max-width: 500px;
+        margin: auto;
     }
 
     #benefits-container {
         grid-template-columns: 1fr 1fr;
+        margin: auto;
+        padding: 24px 130px;
     }
 
     .benefits-card {
@@ -348,11 +437,13 @@ input {
     
     #testimonials-container {
         display: flex;
-        background-size: 50px auto;
+        background-size: 50px;
+        max-width: 1200px;
+        margin: 80px auto 150px;
         padding: 25px 10px;
     }
 
-    .testimonial {
+    .testimonials-card {
         margin: 0 20px;
     }
 
@@ -360,8 +451,44 @@ input {
         font-size: .6rem;
     }
 
+    #stacking-container {
+        width: 663px;
+    }
+
+    #sign-up-container {
+        padding: 16px 30px 10px;
+    }
+
+    .sign-up-text {
+        padding: 0 28px;
+        font-size: .7rem;
+    }
+
+    #email {
+        width: 340px;
+        padding: 10px 20px;
+    }
+
+    .sign-up-btn {
+        width: 160px;
+        padding: 10px 16px;
+    }
+
+    #footer-container {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    .footer-logo {
+        width: 80px;
+    }
+
     #footer-info-container {
         display: flex;
+    }
+
+    #main-footer {
+        padding-top: 100px;
     }
 
     .location-container {
@@ -377,11 +504,22 @@ input {
         flex: 1;
     }
 
+    .info-links-a ul{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     .info-links-b {
         flex: 1;
     }
 
+    .info-links-b ul{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
     .social-media-container {
+        padding-top: 0;
         flex: 1;
     }    
 }
