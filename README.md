@@ -1,4 +1,21 @@
-# Frontend Mentor - Fylo landing page with dark theme and features grid
+
+# Fylo landing page
+
+## The Making of Fylo
+I initially chose this mockup from [Frontend Mentor](https://www.frontendmentor.io) because I saw opportunities to test out my CSS grid and flexbox skills. Unbeknownst to me, it also gave me an opportunity to learn something new.
+
+## Most Memorable Challenge
+This mockup required a sign up form that not only was responsive, but partially overlapped the main background and footer.
+
+## Solution
+Just a little background information, prior to this project, I've seen developers mentioning how they absolutely loathed absolute positioning. So much so, that I vowed to myself I would never subject others to it. However, after a ton of Google searches, and various attempts, I found absolute positioning would work really well for this purpose. It would keep my sign up card centered on the line where the main content met the footer. It would also be fully responsive.
+
+Is it the most optimal? Probably not. But I got to know absolute positioning on a deeper level. Now, I can say, absolute positioning isn't all that bad.
+
+
+# For Developers
+
+## Frontend Mentor - Fylo landing page with dark theme and features grid
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
